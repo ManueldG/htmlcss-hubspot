@@ -23,14 +23,25 @@ body {
     float: left;
 }
 
-nav li{
+nav li {
     display: inline-block;
     list-style: none;
+    line-height: 26px;
+    margin-right: 5px;
+    padding: 0 3px;
 }
 
 .btn {
     border-radius:5px;
     border: 1px solid #fe775a;
+    margin: 1px;
+    display: inline-block;
+    min-width: 100px;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 25px;
 }
 
 .clearfix {
@@ -38,7 +49,9 @@ nav li{
     clear: both;
     display: table;
 }
-
+header .row {
+    line-height: 80px;
+}
 /*header*/
 
 header .container {
@@ -48,7 +61,7 @@ header .container {
 header .row:nth-child(1) nav:nth-child(1){
     width: 50%;
 }
-header .row:nth-child(1) li:nth-child(1){
+header .row:nth-child(1) ul li:nth-child(1){
     border-right: 1px solid black;
     
 }
