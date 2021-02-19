@@ -30,10 +30,21 @@ nav li{
 
 .btn {
     border-radius:5px;
-    border: 1px solid black;
+    border: 1px solid #fe775a;
+}
+
+.clearfix {
+    content: " ";
+    clear: both;
+    display: table;
 }
 
 /*header*/
+
+header .container {
+    width:80%;
+    margin:0 auto;
+}
 header .row:nth-child(1) nav:nth-child(1){
     width: 50%;
 }
