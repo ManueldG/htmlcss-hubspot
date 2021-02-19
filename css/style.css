@@ -34,6 +34,7 @@ nav li {
 .btn {
     border-radius:5px;
     border: 1px solid #fe775a;
+<<<<<<< HEAD
     margin: 1px;
     display: inline-block;
     min-width: 100px;
@@ -42,6 +43,9 @@ nav li {
     text-transform: uppercase;
     text-align: center;
     line-height: 25px;
+=======
+    line-height: 20px;
+>>>>>>> d52da174dac0c466c01d43a778906d884176cb2b
 }
 
 .clearfix {
