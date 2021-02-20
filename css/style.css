@@ -69,7 +69,7 @@ header .container {
 header .row:nth-child(1) nav:nth-child(1){
     width: 50%;
 }
-header .row:nth-child(1) ul:first-child li:first-child{
+header.row li{
     border-right: 1px solid black;
     
 }
