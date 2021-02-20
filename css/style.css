@@ -7,7 +7,7 @@
 }
 
 body {
-    width: 1683px;
+    width: 1700px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -55,21 +55,47 @@ nav li {
     clear: both;
     display: table;
 }
+
 header .row {
     line-height: 80px;
     width: 100%;
-    margin: 0px 171px;
+    margin: 0px auto;
+    padding: 0px 250px;
+}
+
+header .row:first-child {
+    border-bottom: 1px solid black;    
 }
 /*header*/
 
 header .container {
-    width:80%;
+    width:100%;
     margin:0 auto;
 }
-header .row:nth-child(1) nav:nth-child(1){
-    width: 50%;
+
+header .row:first-child .float:first-child li:first-child{
+    border-right: 1px solid black;    
 }
-header.row li{
-    border-right: 1px solid black;
-    
+
+header .row .float:nth-child(2) {
+        text-align: right;    
+}
+
+.fa-search {
+   color: #00a4bd;
+}
+
+
+/*jumbotron*/
+
+main .jumbotron {
+    background-image: url("../img-hubspot/jumbotron.png") ;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 609px;
+    width: 1700px;
+    padding: 5px 250px;
+}
+main .jumbotron .btn {
+
 }
