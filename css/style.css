@@ -34,7 +34,7 @@ nav li {
 .btn {
     border-radius:5px;
     border: 1px solid #fe775a;
-<<<<<<< HEAD
+    color:#fe775a;
     margin: 1px;
     display: inline-block;
     min-width: 100px;
@@ -43,9 +43,11 @@ nav li {
     text-transform: uppercase;
     text-align: center;
     line-height: 25px;
-=======
-    line-height: 20px;
->>>>>>> d52da174dac0c466c01d43a778906d884176cb2b
+}
+
+.orange {
+    background-color: #fe775a;
+    color:white;    
 }
 
 .clearfix {
@@ -55,6 +57,8 @@ nav li {
 }
 header .row {
     line-height: 80px;
+    width: 100%;
+    margin: 0px 171px;
 }
 /*header*/
 
@@ -65,7 +69,7 @@ header .container {
 header .row:nth-child(1) nav:nth-child(1){
     width: 50%;
 }
-header .row:nth-child(1) ul li:nth-child(1){
+header .row:nth-child(1) ul:first-child li:first-child{
     border-right: 1px solid black;
     
 }
