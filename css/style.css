@@ -173,12 +173,14 @@ main .jumbotron {
 .content .rubik{
     border: 1px solid black;
     height: 411px;
-    width: 1177px;
+    width: 1180px;
     margin: 0 250px;
+    padding-top: 50px;
 }
 
 .rubik img{
-    margin: 0 auto;
+    margin-left: calc(528px - 60px);
+    margin-right: 528px;
     height: 190px;
-    width: 190px;
+    width: 250px;
 }
