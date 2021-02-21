@@ -92,7 +92,6 @@ header .row:first-child {
 }
 
 header .row:last-child {
-    border-bottom: 1px solid black; 
     background-color: #ffffff;   
 }
 
@@ -112,11 +111,11 @@ header .row:first-child .float:first-child li:last-child{
     font-weight: 500;    
 }
 
-header .row:first-child .float:last-child li{
+header .row .float:last-child li{
     margin-right: 23px;   
 }
 
-header .row:first-child .float:last-child li:last-child{
+header .row .float:last-child li:last-child{
     margin-right: 0;   
 }
 
