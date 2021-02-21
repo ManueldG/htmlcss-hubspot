@@ -27,11 +27,9 @@ body {
 nav li {
     display: inline-block;
     list-style: none;
-    line-height: 26px;
-    margin-right: 5px;
-    padding: 0 3px;
+    line-height: 19px;
 }
-
+    
 .btn {
     display: inline-block;
     color:#fe775a;
@@ -43,8 +41,6 @@ nav li {
     padding: 5px 10px;
     border-radius:5px;
     border: 1px solid #fe775a;
-    margin-right: 10px;
-    
 }
 
 .orange {
@@ -83,7 +79,8 @@ h2 {
 header .row {
     line-height: 80px;
     letter-spacing: -1px;
-    font-weight: 700; 
+    font-weight: 600; 
+    color:#32495b;
     width: 100%;
     margin: 0px auto;
     padding: 0px 250px;    
@@ -105,17 +102,36 @@ header .container {
 }
 
 header .row:first-child .float:first-child li:first-child{
-    border-right: 1px solid black;  
+    border-right: 2px solid #899397;  
     padding-right: 19px;  
+    letter-spacing: 0;
+}
+
+header .row:first-child .float:first-child li:last-child{
+    margin-left: 18px;
+    font-weight: 500;    
+}
+
+header .row:first-child .float:last-child li{
+    margin-right: 23px;   
+}
+
+header .row:first-child .float:last-child li:last-child{
+    margin-right: 0;   
 }
 
 header .row .float:nth-child(2) {
-        text-align: right;    
+        text-align: right;
 }
 
 .fa-search {
     color: #00a4bd;
-    margin: 10px;
+    /*margin: 10px;*/
+    font-size: 14px;
+}
+
+.fa-globe-europe {
+    margin-right: 2px;
 }
 
 
