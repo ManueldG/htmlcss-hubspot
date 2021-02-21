@@ -19,6 +19,7 @@ body {
 .w33 {
     width: calc(100% / 3 );
 }
+
 .float {
     float: left;
 }
@@ -32,23 +33,30 @@ nav li {
 }
 
 .btn {
-    border-radius:5px;
-    border: 1px solid #fe775a;
-    color:#fe775a;
-    margin: 1px;
     display: inline-block;
-    min-width: 100px;
-    padding: 5px;
+    color:#fe775a;
     text-decoration: none;
-    text-transform: uppercase;
     text-align: center;
     line-height: 25px;
+    font-size: 14px;    
+    min-width: 50px;
+    padding: 5px 10px;
+    border-radius:5px;
+    border: 1px solid #fe775a;
+    margin-right: 10px;
+    
 }
 
 .orange {
     background-color: #fe775a;
-    color:white;    
+    color:white;   
+    margin-right:0; 
+    
 }
+
+.p30 {
+    padding: 15px;
+} 
 
 .clearfix {
     content: " ";
@@ -56,17 +64,38 @@ nav li {
     display: table;
 }
 
+h1 {
+    font-size: 48px;
+    color:#33475b;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight:500;
+    margin: 35px 0;
+    color:#33475b;
+    line-height: 27px;   
+}
+
+
+/*header*/
+
 header .row {
     line-height: 80px;
     width: 100%;
     margin: 0px auto;
-    padding: 0px 250px;
+    padding: 0px 250px;    
 }
 
 header .row:first-child {
-    border-bottom: 1px solid black;    
+    border-bottom: 1px solid black; 
+    background-color: #f4f9fd;   
 }
-/*header*/
+
+header .row:last-child {
+    border-bottom: 1px solid black; 
+    background-color: #ffffff;   
+}
 
 header .container {
     width:100%;
@@ -74,7 +103,8 @@ header .container {
 }
 
 header .row:first-child .float:first-child li:first-child{
-    border-right: 1px solid black;    
+    border-right: 1px solid black;  
+    padding-right: 19px;  
 }
 
 header .row .float:nth-child(2) {
@@ -82,20 +112,26 @@ header .row .float:nth-child(2) {
 }
 
 .fa-search {
-   color: #00a4bd;
+    color: #00a4bd;
+    margin: 10px;
 }
 
 
 /*jumbotron*/
+main .container {
+    width: 100%;
+    background-color:#fef4ec ;
+}
 
 main .jumbotron {
-    background-image: url("../img-hubspot/jumbotron.png") ;
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-image: url("../img-hubspot/jumbotron.png");
+    background-position: 253px 0px;
+    background-repeat: no-repeat;
     height: 609px;
     width: 1700px;
     padding: 5px 250px;
 }
+
 main .jumbotron .btn {
 
 }
