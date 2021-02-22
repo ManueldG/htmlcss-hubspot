@@ -334,7 +334,7 @@ main .jumbotron {
 
 .content-r .trecolonne img{
     height: 96px;
-    margin: 0 127px;
+    margin: 20px 127px;
 }
 
 .content-r .trecolonne h3{
@@ -345,11 +345,15 @@ main .jumbotron {
 }
 
 .content-r .trecolonne p{
-        width: 100%;
         margin: 36px 46px 72px 45px;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 27px;
+}
+
+.content-r .trecolonne hr {
+    width: 284px;
+    margin: 0 auto;
 }
 
 
