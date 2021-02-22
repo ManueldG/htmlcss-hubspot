@@ -17,7 +17,7 @@ body {
 }
 
 .w33 {
-    width: calc(100% / 3 );
+    width: calc(100% / 3 - 20px);
 }
 
 .w30 {
@@ -69,6 +69,13 @@ nav li {
     clear: both;
     display: table;
 }
+
+.box {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 14px -9px;
+    border-radius: 7px;
+}
+    
 
 h1 {
     font-size: 48px;
@@ -225,8 +232,6 @@ main .jumbotron {
 
 .content-r .duecolonne{
     font-size: 17px;
-    background-color: #ffffff;
-    box-shadow: 1px 1px 14px -9px;
     height: 411px;
     width: 1180px;
     margin: 0 250px;
@@ -313,8 +318,16 @@ main .jumbotron {
 
 /*tre colonne*/
 .content-r .trecolonne{
-    margin: 34px 200px;
+    margin: 34px 251px;
+    width: 1180px;
 }
+
+.content-r .trecolonne .float.w33{
+    margin: 0 10px;
+        
+}
+
+
 
 
 
