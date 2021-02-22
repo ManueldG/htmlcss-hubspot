@@ -20,6 +20,14 @@ body {
     width: calc(100% / 3 );
 }
 
+.w30 {
+    width: 30%;
+}
+
+.w70 {
+    width: 70%;
+}
+
 .float {
     float: left;
 }
@@ -76,10 +84,11 @@ h2 {
 h3 {
     text-align: center;
     font-weight: 400;
-    letter-spacing: -1.6px;
+    letter-spacing: -1px;
     font-size: 17px;
     line-height: 28px;
-    margin: 0px 170px;
+    margin: 0px 184px;
+    width: 848px;
 }
 
 h4 {
@@ -167,7 +176,7 @@ main .jumbotron {
     padding: 1px 250px;
 }
 
-.content {
+.jumbotron .content {
     background-color: transparent;
 }
 
@@ -189,11 +198,11 @@ main .jumbotron {
 }
 
 /* Rubik*/
-.content {
-    background-color: #f4f9fd;
+.content-r {
+    background-color: #f4f9fd;    
 }
 
-.content .rubik{
+.content-r .rubik{
     height: 411px;
     width: 1180px;
     margin: 0 250px;
@@ -207,3 +216,27 @@ main .jumbotron {
     height: 190px;
     width: 250px;
 }
+
+/*due colonne*/
+
+.content-r .duecolonne{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 14px -9px;
+    height: 411px;
+    width: 1180px;
+    margin: 0 250px;
+    padding-top: 70px;
+}
+
+.content-r .duecolonne img{
+    height: 105px;
+    width: 136px;
+    margin: 0 130px;
+}
+
+.content-r .duecolonne .btn{
+    width: 155px;
+    font-size: 13px;
+    margin: 0 121px;
+}
+
