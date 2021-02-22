@@ -228,6 +228,7 @@ main .jumbotron {
 
 .content-r{ 
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .content-r .duecolonne{
@@ -318,7 +319,8 @@ h3.colonne {
 
 /*tre colonne*/
 .content-r .trecolonne{
-    margin: 34px 251px;
+    margin-top: 50px ;
+    margin-left: 251px;
     width: 1180px;
 }
 
