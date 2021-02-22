@@ -292,5 +292,11 @@ main .jumbotron {
     padding-right: 28px;
 }
 
+.content-r .duecolonne .w70 hr {
+    width: 436px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
 
 
