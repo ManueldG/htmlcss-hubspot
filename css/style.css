@@ -338,7 +338,18 @@ main .jumbotron {
 }
 
 .content-r .trecolonne h3{
-    
+    width: 100%;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;    
+}
+
+.content-r .trecolonne p{
+        width: 100%;
+        margin: 36px 46px 72px 45px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 27px;
 }
 
 
