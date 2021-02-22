@@ -332,9 +332,13 @@ main .jumbotron {
         
 }
 
-.content-r .trecolonne img.marketing{
+.content-r .trecolonne img{
     height: 96px;
     margin: 0 127px;
+}
+
+.content-r .trecolonne h3{
+    
 }
 
 
