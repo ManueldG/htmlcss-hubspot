@@ -255,9 +255,11 @@ main .jumbotron {
 }
 
 .content-r .duecolonne .w70 h2,
-.content-r .duecolonne .w70 h3{
+.content-r .duecolonne .w70 h3 {
     text-align: left;
-    margin: 0;
+    margin-left: 0px;
+    margin-right: 57px;
+    display: inline;
 }
 
 .content-r .duecolonne .w70 h2{
