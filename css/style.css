@@ -375,11 +375,67 @@ h3.colonne {
 
 /*greentable*/
 
-.greentable{
-    background-image: linear-gradient(#00a9b8,#00bba8);
+h2,h3,h4{
+    margin: 0;
 }
 
 
+
+/*inizio greentable*/
+
+.greentable{
+    background-image: linear-gradient(to right, #00a9b8,#00bba8);
+    color: white;
+    text-align: center;
+    padding: 0 261px;
+}
+
+.greentable h2 {
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.greentable h3 {
+    font-size: 40px;
+    width: 210px;
+}
+
+.col {
+    display: block;
+    width: calc( 100% /4 );
+}
+
+.row:nth-child(3) .col {
+    width: calc(100% / 4);
+    border-right: 1px solid;
+    border-bottom: 1px solid white;
+    padding: 50px;
+}
+
+.row:nth-child(4) .col {
+    width: calc(100% / 4);
+    border-right: 1px solid white;
+    padding: 50px;
+}
+
+.row:nth-child(3) .col:nth-child(4) {
+    border-right: none;
+}
+
+.row:nth-child(4) .col.col:nth-child(4) {
+    border-right: none;
+}
+
+.greentable h3 {
+    font-size: 40px;
+    width: 210px;
+}
+
+.greentable p {
+    margin: 50px auto;
+}
+
+/*fine*/
 
 
 
