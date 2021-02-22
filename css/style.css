@@ -199,12 +199,12 @@ main .jumbotron {
 
 /* Rubik*/
 .content-r {
-    background-color: #f4f9fd;    
+    background-color: #f4f9fd;
+    width: 1180px  
 }
 
 .content-r .rubik{
     height: 411px;
-    width: 1180px;
     margin: 0 250px;
     padding-top: 50px;
     background-color: transparent;
@@ -219,13 +219,21 @@ main .jumbotron {
 
 /*due colonne*/
 
+.content-r{
+    width: 100%;
+}
+
 .content-r .duecolonne{
     background-color: #ffffff;
     box-shadow: 1px 1px 14px -9px;
     height: 411px;
-    width: 1180px;
     margin: 0 250px;
     padding-top: 70px;
+}
+
+.content-r .duecolonne {
+    width: 1180px;
+    font-size: 13px;
 }
 
 .content-r .duecolonne img{
@@ -239,4 +247,6 @@ main .jumbotron {
     font-size: 13px;
     margin: 20px 122px;
 }
+
+
 
