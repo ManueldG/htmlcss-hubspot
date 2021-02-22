@@ -259,14 +259,21 @@ main .jumbotron {
     text-align: left;
     margin-left: 0px;
     margin-right: 57px;
-    display: inline;
+    color: #33475b;
 }
 
 .content-r .duecolonne .w70 h2{
-    font-size: 24px;
-    color: #33475b;
+    font-size: 24px;    
     letter-spacing: -0.5px;
     margin-bottom: 36px;
+}
+
+.content-r .duecolonne .w70 h3{
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin-bottom: 36px;
+    font-weight: 700;
+    display: inline;
 }
 
 .content-r .duecolonne .w70 p{
@@ -281,6 +288,8 @@ main .jumbotron {
 
 .fa-ul {
     margin-left: 1.5em;
+    margin-top: 29px;
+    margin-bottom: 73px;
 }
 
 .fa-check-circle {
