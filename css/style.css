@@ -250,5 +250,15 @@ main .jumbotron {
     display: inline-block;
 }
 
+.content-r .duecolonne .w70{
+    padding: 0 26px;
+}
+
+.content-r .duecolonne .w70 h2,
+.content-r .duecolonne .w70 h3{
+    text-align: left;
+    margin: 0;
+}
+
 
 
