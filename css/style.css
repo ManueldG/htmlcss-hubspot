@@ -350,6 +350,7 @@ h3.colonne {
 
 .content-r .trecolonne p{
         margin: 36px 46px 72px 45px;
+        padding-bottom: 50px;
         font-size: 14px;
         font-weight: 500;
         line-height: 27px;
@@ -358,6 +359,23 @@ h3.colonne {
 .content-r .trecolonne hr {
     width: 284px;
     margin: 0 auto;
+}
+
+.fa-ul {
+    margin-left: 59px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.w33 .btn {
+    margin: 0 100px 20px 100px;
+}
+
+
+/*greentable*/
+
+.greentable{
+    background-image: linear-gradient(#00a9b8,#00bba8);
 }
 
 
