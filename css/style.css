@@ -219,12 +219,12 @@ main .jumbotron {
 
 /*due colonne*/
 
-.content-r{
+.content-r{ 
     width: 100%;
 }
 
 .content-r .duecolonne{
-    font-size: 13px;
+    font-size: 17px;
     background-color: #ffffff;
     box-shadow: 1px 1px 14px -9px;
     height: 411px;
@@ -258,6 +258,38 @@ main .jumbotron {
 .content-r .duecolonne .w70 h3{
     text-align: left;
     margin: 0;
+}
+
+.content-r .duecolonne .w70 h2{
+    font-size: 24px;
+    color: #33475b;
+    letter-spacing: -0.5px;
+    margin-bottom: 36px;
+}
+
+.content-r .duecolonne .w70 p{
+        font-size: 16px;
+        color: #33475b;
+        letter-spacing: -1px;
+        margin-right: 200px;
+        margin-bottom: 36px;
+        line-height: 29px;
+        font-weight: 500;
+}
+
+.fa-ul {
+    margin-left: 1.5em;
+}
+
+.fa-check-circle {
+    color: #fe775a
+}
+
+.content-r .duecolonne .w70 li {
+    display: inline-block;
+    list-style: none;
+    line-height: 19px;
+    padding-right: 28px;
 }
 
 
