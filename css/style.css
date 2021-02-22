@@ -13,7 +13,7 @@ body {
 
 /*Utility*/
 .w50{
-    width: 50%;   
+    width: calc(50% - 10px);   
 }
 
 .w33 {
