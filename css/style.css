@@ -21,11 +21,11 @@ body {
 }
 
 .w30 {
-    width: 30%;
+    width: calc(30% - 2px); /*calcolo bordino altrimenti va a capo*/
 }
 
 .w70 {
-    width: 70%;
+    width: calc(70% - 2px); /*calcolo bordino altrimenti va a capo*/
 }
 
 .float {
@@ -224,16 +224,13 @@ main .jumbotron {
 }
 
 .content-r .duecolonne{
+    font-size: 13px;
     background-color: #ffffff;
     box-shadow: 1px 1px 14px -9px;
     height: 411px;
+    width: 1180px;
     margin: 0 250px;
     padding-top: 70px;
-}
-
-.content-r .duecolonne {
-    width: 1180px;
-    font-size: 13px;
 }
 
 .content-r .duecolonne img{
@@ -246,6 +243,11 @@ main .jumbotron {
     width: 155px;
     font-size: 13px;
     margin: 20px 122px;
+}
+
+.content-r .duecolonne .w30,
+.content-r .duecolonne .w70{
+    display: inline-block;
 }
 
 
