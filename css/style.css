@@ -17,7 +17,7 @@ body {
 }
 
 .w33 {
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 37px);
 }
 
 .w30 {
@@ -323,7 +323,12 @@ main .jumbotron {
 }
 
 .content-r .trecolonne .float.w33{
-    margin: 0 10px;
+    margin-right: 55px;
+        
+}
+
+.content-r .trecolonne .float.w33:last-child{
+    margin-right: 0;
         
 }
 
