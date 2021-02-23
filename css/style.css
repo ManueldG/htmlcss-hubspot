@@ -7,7 +7,7 @@
 }
 
 body {
-    width: 1700px;
+    width: 1680px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -130,7 +130,7 @@ h4 {
 header .row {
     line-height: 80px;
     letter-spacing: -1px;
-    font-weight: 600; 
+    font-weight: 500; 
     color:#32495b;
     width: 100%;
     margin: 0px auto;
