@@ -522,8 +522,24 @@ h2,h3,h4{
 footer {
     height: 618px;
     width: 1683px;
+    padding-top: 40px;
+    color: #ffffff;
     background-color: grey;
+
 }
+
+footer .quattro-colonne {
+    height: 313px;    
+    width: 1080px;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+
+footer .col {
+    width: calc(100% / 4);
+    background-color: rgb(236, 84, 203);
+}
+/*#dadee0*/
 
 
 
