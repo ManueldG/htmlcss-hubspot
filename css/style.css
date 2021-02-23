@@ -470,7 +470,7 @@ h2,h3,h4{
 .quattro-blocchi .box-3 {
     height: 100px;
     width: 593px;
-    bottom: 53px;
+    top: 53px;
     right: 252px;
     background-color: rgb(209, 49, 182);
 }
@@ -478,7 +478,7 @@ h2,h3,h4{
 .quattro-blocchi .box-4 {
     height: 374px;
     width: 319px;
-    top: 63px;
+    bottom: 63px;
     right: 348px;
     background-color: rgb(41, 43, 182);
 }
