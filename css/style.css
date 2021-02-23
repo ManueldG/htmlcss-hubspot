@@ -542,7 +542,6 @@ footer .quattro-colonne {
     height: 313px;    
     width: 1080px;
     margin: 0 auto;
-    background-color: lightgrey;
 }
 
 footer .col {
@@ -552,11 +551,13 @@ footer .col {
 
 footer .col h2{
     color:#ffffff;
+    font-size:18px;
 }
 
 footer ul {
     list-style: none;
     text-align: center;
+    font-size: 17px;
 }
 
 footer nav.lingue {
