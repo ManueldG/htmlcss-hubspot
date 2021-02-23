@@ -32,6 +32,16 @@ body {
     float: left;
 }
 
+.sinistra {
+    text-align: left;
+    display: inline-block;
+}
+
+.destra {
+    text-align: right;
+    display: inline-block;
+}
+
 nav li {
     display: inline-block;
     list-style: none;
@@ -554,16 +564,17 @@ footer .copyright {
     width: 1180px;
     margin: 0 auto;
     border-top: 1px solid #cbd6e2;
-    text-align: center;
     background-color:rgb(75, 119, 104)
 }
 
 footer .copyright .sinistra {
     text-align: left;
+    display: inline-block;
 }
 
 footer .copyright .destra ul{
     text-align: right;
+    display: inline-block;
 }
 
 
