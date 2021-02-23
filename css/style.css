@@ -539,7 +539,12 @@ footer .col {
     width: calc(100% / 4);
     background-color: rgb(236, 84, 203);
 }
-/*#dadee0*/
+
+footer .col ul {
+    list-style: none;
+}
+
+
 
 
 
