@@ -70,6 +70,14 @@ nav li {
     display: table;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 .box {
     background-color: #ffffff;
     box-shadow: 1px 1px 14px -9px;
@@ -387,7 +395,7 @@ h2,h3,h4{
     background-image: linear-gradient(to right, #00a9b8,#00bba8);
     color: white;
     text-align: center;
-    padding: 0 261px;
+    padding: 0 261px;   /* per cambiare il paddind bisogna cambiare anche .col h3 widht*/
 }
 
 .greentable h2 {
@@ -436,6 +444,45 @@ h2,h3,h4{
 }
 
 /*fine*/
+
+/*inizio quattro-blocchi*/
+.quattro-blocchi {
+    height: 716px;
+    background-color: #fef4ec;
+}
+
+.quattro-blocchi .box-1 {
+    height: 155px;
+    width: 179px;
+    top: 58px;
+    left: 336px;
+    background-color: grey;
+}
+
+.quattro-blocchi .box-2 {
+    height: 348px;
+    width: 466px;
+    bottom: 53px;
+    left: 252px;
+    background-color: rgb(53, 201, 85);
+}
+
+.quattro-blocchi .box-3 {
+    height: 100px;
+    width: 593px;
+    bottom: 53px;
+    left: 252px;
+    background-color: rgb(209, 49, 182);
+}
+
+.quattro-blocchi .box-4 {
+    height: 374px;
+    width: 319px;
+    top: 63px;
+    right: 348px;
+    background-color: rgb(41, 43, 182);
+}
+/*fine quattro blocchi*/
 
 
 
