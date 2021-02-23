@@ -114,9 +114,9 @@ h4 {
     letter-spacing: -0.5px;
 }
 
-
-/*header*/
-
+/*************/
+/*  HEADER   */
+/*************/
 header .row {
     line-height: 80px;
     letter-spacing: -1px;
@@ -174,6 +174,10 @@ header .row .float:nth-child(2) {
     margin-right: 2px;
 }
 
+
+/*************/
+/*    MAIN   */
+/*************/
 
 /*jumbotron*/
 main .container {
@@ -472,7 +476,7 @@ h2,h3,h4{
     width: 522px;
     bottom: 53px;
     left: 252px;
-    background-color: rgb(53, 201, 85);
+    /*background-color: rgb(53, 201, 85);*/
 }
 
 .quattro-blocchi .box-2 h2{
@@ -483,6 +487,10 @@ h2,h3,h4{
     text-align: left;
     line-height: 27px;
     margin: 45px 0;
+}
+
+.quattro-blocchi .box-2 p.didascalia{
+    font-size: 12px;
 }
 
 
@@ -507,6 +515,15 @@ h2,h3,h4{
     /*background-color: rgb(41, 43, 182);*/
 }
 /*fine quattro blocchi*/
+
+/*************/
+/*  FOOTER   */
+/*************/
+footer {
+    height: 618px;
+    width: 1683px;
+    background-color: grey;
+}
 
 
 
