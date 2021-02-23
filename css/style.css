@@ -542,6 +542,20 @@ footer .col {
 
 footer ul {
     list-style: none;
+    text-align: center;
+}
+
+footer nav.lingue {
+    margin-top: 83px;
+}
+
+footer .copyright {
+    height: 100px;
+    width: 1180px;
+    margin: 0 auto;
+    border-top: 1px solid #cbd6e2;
+    text-align: center;
+    background-color:rgb(75, 119, 104)
 }
 
 
