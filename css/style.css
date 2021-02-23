@@ -459,6 +459,11 @@ h2,h3,h4{
     background-color: grey;
 }
 
+.quattro-blocchi .box-1 h2 {
+    font-size: 44px;
+}   
+
+
 .quattro-blocchi .box-2 {
     height: 348px;
     width: 466px;
@@ -475,7 +480,7 @@ h2,h3,h4{
     background-color: rgb(209, 49, 182);
 }
 
-.quattro-blocchi .box-4 {
+.quattro-blocchi .box-4 img {
     height: 374px;
     width: 319px;
     bottom: 63px;
