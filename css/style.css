@@ -588,6 +588,10 @@ footer .quattro-colonne .col .social {
 
 footer nav.lingue {
     margin-top: 83px;
+    color: #cbd6e2;
+}
+footer nav.lingue li {
+    margin-left: 17px;    
 }
 
 footer .copyright {
