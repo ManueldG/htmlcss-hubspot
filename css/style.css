@@ -535,8 +535,7 @@ footer {
     width: 1683px;
     padding-top: 40px;
     color: #ffffff;
-    background-color: grey;
-
+    background-color:#32495b;
 }
 
 footer .quattro-colonne {
@@ -549,6 +548,10 @@ footer .quattro-colonne {
 footer .col {
     width: calc(100% / 4);
     background-color: rgb(236, 84, 203);
+}
+
+footer .col h2{
+    color:#ffffff;
 }
 
 footer ul {
