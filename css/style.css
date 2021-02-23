@@ -13,7 +13,7 @@ body {
 
 /*Utility*/
 .w50{
-    width: calc(50% - 10px);   
+    width: calc(50% - 3px);   
 }
 
 .w33 {
@@ -134,7 +134,8 @@ header .row {
     color:#32495b;
     width: 100%;
     margin: 0px auto;
-    padding: 0px 250px;    
+    padding-left: 250px;
+    padding-right: 264px;    
 }
 
 header .row:first-child {
@@ -565,6 +566,15 @@ footer .copyright {
     margin: 0 auto;
     border-top: 1px solid #cbd6e2;
     background-color:rgb(75, 119, 104)
+}
+
+footer .copyright .sinistra{
+    padding-top: 50px;
+    vertical-align:middle
+}
+
+footer .copyright .destra{
+    
 }
 
 footer .copyright li{
