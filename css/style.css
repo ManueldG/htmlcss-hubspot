@@ -448,19 +448,22 @@ h2,h3,h4{
 /*inizio quattro-blocchi*/
 .quattro-blocchi {
     height: 716px;
-    background-color: #fef4ec;
+    background-color: #ffffff;
 }
 
 .quattro-blocchi .box-1 {
+    font-size: 15px;
+    line-height: 30px;
     height: 155px;
     width: 179px;
     top: 58px;
     left: 336px;
-    background-color: grey;
+    /*background-color: grey;*/
 }
 
 .quattro-blocchi .box-1 h2 {
     font-size: 44px;
+    margin-bottom: 40px;
 }   
 
 
@@ -472,12 +475,23 @@ h2,h3,h4{
     background-color: rgb(53, 201, 85);
 }
 
+.quattro-blocchi .box-2 h2{
+    text-align: left;
+}
+
+.quattro-blocchi .box-2 p{
+    text-align: left;
+    line-height: 27px;
+    margin: 45px 0;
+}
+
+
 .quattro-blocchi .box-3{
     height: 100px;
     width: 593px;
     top: 53px;
     right: 252px;
-    background-color: rgb(209, 49, 182);
+    /*background-color: rgb(209, 49, 182);*/
 }
 
 .quattro-blocchi .box-3 .float {
@@ -490,7 +504,7 @@ h2,h3,h4{
     width: 319px;
     bottom: 63px;
     right: 348px;
-    background-color: rgb(41, 43, 182);
+    /*background-color: rgb(41, 43, 182);*/
 }
 /*fine quattro blocchi*/
 
