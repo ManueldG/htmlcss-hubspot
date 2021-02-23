@@ -569,7 +569,22 @@ footer ul {
 
 footer .quattro-colonne ul li {
     margin-bottom: 19px;
+    color: #cbd6e2;
 }
+
+footer .quattro-colonne .col .btn {
+    background: #dadee0;
+    color: #32495b;
+    border: 1px solid #f8f9f9;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+footer .quattro-colonne .col .social {
+    letter-spacing: 9px;
+}
+
+
 
 footer nav.lingue {
     margin-top: 83px;
