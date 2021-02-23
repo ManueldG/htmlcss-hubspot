@@ -567,14 +567,9 @@ footer .copyright {
     background-color:rgb(75, 119, 104)
 }
 
-footer .copyright .sinistra {
-    text-align: left;
-    display: inline-block;
-}
-
-footer .copyright .destra ul{
-    text-align: right;
-    display: inline-block;
+footer .copyright li{
+    margin-left: 5px;
+    
 }
 
 
