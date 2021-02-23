@@ -558,6 +558,14 @@ footer .copyright {
     background-color:rgb(75, 119, 104)
 }
 
+footer .copyright .sinistra {
+    text-align: left;
+}
+
+footer .copyright .destra ul{
+    text-align: right;
+}
+
 
 
 
