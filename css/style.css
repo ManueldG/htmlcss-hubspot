@@ -82,8 +82,13 @@ nav li {
 .orange {
     background-color: #fe775a;
     color:white;   
-    margin-right:0; 
-    
+    margin-right:0;     
+}
+
+.orange:hover {
+    background-color: white;;
+    color:#fe775a;
+    margin-right:0;     
 }
 
 .grande {
@@ -156,23 +161,11 @@ header .row {
     padding-right: 264px;    
 }
 
-header .row nav li a {
+
+header .row nav li{
     position: relative;
 }
 
-.nascosto {
-    background-color: grey;
-    display:none;
-    position: absolute;    
-    left: 0;
-    top: 16px;
-    width: 100%;
-}
-
-header .row nav li:hover .nascosto {
-    position: absolute;
-    display: block;
-}
 
 header .row:first-child {
     border-bottom: 1px solid black; 
@@ -194,14 +187,6 @@ header .row:first-child .float:first-child li:first-child{
     padding-right: 19px;  
     letter-spacing: 0;
 
-}
-
-/*hover*/
-header .row:first-child .float:first-child li:first-child:hover .nascosto{
-    background-color: white;
-    display: block;
-    padding: 10px 5px;
-    border: 1px solid #80808047;
 }
 
 header .row:first-child .float:first-child li:last-child{
@@ -231,6 +216,45 @@ header .row .float:nth-child(2) {
     margin-right: 2px;
 }
 
+/*hover*/
+
+.nascosto {
+    background-color: rgb(252, 252, 252);
+    display:none;
+    position: absolute;    
+    left: 0;
+    top: 16px;
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #80808047;
+    z-index: 1;
+}
+
+nav li:hover .nascosto {
+    position: absolute;
+    display: block;
+}
+/*
+header .row:first-child .float:first-child .nascosto li:first-child:hover{
+    background-color: white;
+    display: block;
+    padding: 10px 5px;
+    border: 1px solid #80808047;
+}
+
+header .row:first-child .float:first-child li:first-child:hover .nascosto{
+    background-color: white;
+    display: block;
+    padding: 10px 5px;
+    border: 1px solid #80808047;
+    margin-left: 0;
+}
+
+header .row:first-child .float:first-child .nascosto li:last-child{
+    margin-left: 0;
+}*/
+
+/*fine hover*/
 
 /*************/
 /*    MAIN   */
