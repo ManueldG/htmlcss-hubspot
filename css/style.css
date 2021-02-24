@@ -234,6 +234,12 @@ nav li:hover .nascosto {
     position: absolute;
     display: block;
 }
+
+/* non sovrascrive la regola --> risolto */
+header .row:first-child .float:first-child li li:last-child{
+    margin-left: 0;
+} 
+
 /*
 header .row:first-child .float:first-child .nascosto li:first-child:hover{
     background-color: white;
@@ -261,6 +267,7 @@ header .row:first-child .float:first-child .nascosto li:last-child{
 /*************/
 
 /*jumbotron*/
+
 main .container {
     width: 100%;
     background-color:#fef4ec;    
