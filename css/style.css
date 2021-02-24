@@ -161,11 +161,9 @@ header .row {
     padding-right: 264px;    
 }
 
-
 header .row nav li{
     position: relative;
 }
-
 
 header .row:first-child {
     border-bottom: 1px solid black; 
@@ -186,7 +184,6 @@ header .row:first-child .float:first-child li:first-child{
     border-right: 2px solid #899397;  
     padding-right: 19px;  
     letter-spacing: 0;
-
 }
 
 header .row:first-child .float:first-child li:last-child{
@@ -255,10 +252,10 @@ header .row:first-child .float:first-child li:first-child:hover .nascosto{
     border: 1px solid #80808047;
     margin-left: 0;
 }
-
+*/
 header .row:first-child .float:first-child .nascosto li:last-child{
     margin-left: 0;
-}*/
+}
 
 /*fine hover*/
 
@@ -304,6 +301,7 @@ main .jumbotron {
     border-bottom: 3.5px solid #33475b;
 }
 
+
 /* Rubik*/
 .content-r {
     background-color: #f4f9fd;
@@ -328,6 +326,7 @@ main .jumbotron {
     width: 860px;
     margin: 0 auto;
 }
+
 
 /*due colonne*/
 
@@ -419,8 +418,7 @@ h3.colonne {
     display: inline-block;
     margin-bottom: 5px;
 }
-
-/*fine duecolnne*/
+/*fine duecolonne*/
 
 /*tre colonne*/
 .content-r .trecolonne{
@@ -483,8 +481,6 @@ h3.colonne {
 h2,h3,h4{
     margin: 0;
 }
-
-
 
 /*inizio greentable*/
 
