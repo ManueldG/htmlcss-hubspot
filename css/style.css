@@ -719,7 +719,15 @@ footer .fixed:hover .nascosto {
     left: -70px;
     width: 130px;
     color: gold;
+    border-radius: 5px;
 }
+
+footer .fixed:hover .nascosto span{
+    font-size: 10px;
+    color: blue;
+}
+
+
 
 
 
