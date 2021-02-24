@@ -713,11 +713,12 @@ footer .fixed:hover {
 
 footer .fixed:hover .nascosto {
     display: block;
-    bottom: -97px;
-    width: 130px;
-    top: -166px;
     position: absolute;
-    left: -78px;
+    bottom: 50px;
+    top: -170px;
+    left: -70px;
+    width: 130px;
+    color: gold;
 }
 
 
