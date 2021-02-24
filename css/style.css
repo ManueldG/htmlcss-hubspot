@@ -317,6 +317,11 @@ main .jumbotron {
     width: 250px;
 }
 
+.content-r .rubik h3 {
+    width: 860px;
+    margin: 0 auto;
+}
+
 /*due colonne*/
 
 .content-r{ 
@@ -481,6 +486,7 @@ h2,h3,h4{
     color: white;
     text-align: center;
     padding: 0 261px;   /* per cambiare il paddind bisogna cambiare anche .col h3 widht*/
+    padding-bottom: 100px;
 }
 
 .greentable h2 {
@@ -490,7 +496,7 @@ h2,h3,h4{
 
 .greentable h3 {
     font-size: 40px;
-    width: 210px;
+    width: 210px;    
 }
 
 .col {
