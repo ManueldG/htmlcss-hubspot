@@ -198,8 +198,10 @@ header .row:first-child .float:first-child li:first-child{
 
 /*hover*/
 header .row:first-child .float:first-child li:first-child:hover .nascosto{
-    background-color:black;
+    background-color: white;
     display: block;
+    padding: 10px 5px;
+    border: 1px solid #80808047;
 }
 
 header .row:first-child .float:first-child li:last-child{
@@ -429,7 +431,7 @@ h3.colonne {
     margin: 0 auto;
 }
 
-.fa-ul {
+.trecolonne .fa-ul {
     margin-left: 59px;
     margin-top: 24px;
     margin-bottom: 50px;
